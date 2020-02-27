@@ -1,0 +1,90 @@
+/home/hcd3707/EECS362/project/aludec.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/aludec.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} /home/hcd3707/EECS362/project/tb.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/tb.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} /home/hcd3707/EECS362/project/regfile.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/regfile.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} /home/hcd3707/EECS362/project/imem.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/imem.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} /home/hcd3707/EECS362/project/sign_extend.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/sign_extend.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} /home/hcd3707/EECS362/project/dmem.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/dmem.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} /home/hcd3707/EECS362/project/top.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/top.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /home/hcd3707/EECS362/project/bitops.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/bitops.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module add32
+-- Compiling module sub32
+-- Compiling module and32
+-- Compiling module or32
+-- Compiling module xor32
+-- Compiling module seq32
+-- Compiling module sle32
+-- Compiling module sge32
+-- Compiling module sne32
+-- Compiling module slt32
+-- Compiling module sgt32
+-- Compiling module sll32
+-- Compiling module srl32
+-- Compiling module sra32
+
+Top level modules:
+	add32
+	sub32
+	and32
+	or32
+	xor32
+	seq32
+	sle32
+	sge32
+	sne32
+	slt32
+	sgt32
+	sll32
+	srl32
+	sra32
+
+} {} {}} /home/hcd3707/EECS362/project/alu.v {1 {vlog -work work -vopt -nocovercells /home/hcd3707/EECS362/project/alu.v
+Model Technology ModelSim SE-64 vlog 6.3c Compiler 2007.09 Sep 11 2007
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

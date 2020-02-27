@@ -1,0 +1,168 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 d/home/hcd3707/EECS362
+T_opt
+Z2 V8=RoL2UNQaGNDXhN^]37k3
+Z3 04 2 4 work tb fast 0
+Z4 =1-b8ca3aac2b96-5e5700a3-9e388-427d
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OL;O;6.3c;37
+valu
+Z8 IakgPgHGIiBUEWi?ARN[352
+Z9 VH:>Y?M[NzB[EHhjc?XQNA3
+Z10 d/home/hcd3707/EECS362/project
+Z11 w1582757239
+Z12 8/home/hcd3707/EECS362/project/alu.v
+Z13 F/home/hcd3707/EECS362/project/alu.v
+L0 1
+Z14 OL;L;6.3c;37
+r1
+31
+Z15 o-work work -nocovercells -L mtiAvm
+!s85 0
+valudec
+Z16 I:I<AWiAba`>e65>_28?5k3
+Z17 V;<=8599V9FYhzd3H^zDDL3
+R10
+Z18 w1582757478
+Z19 8/home/hcd3707/EECS362/project/aludec.v
+Z20 F/home/hcd3707/EECS362/project/aludec.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vcontroller
+Z21 IdWBVlj=B<R]a<KB=PkNzA3
+Z22 VO2LO_5nSAHl?[1Ezcm[`=0
+R10
+Z23 w1582757235
+Z24 8/home/hcd3707/EECS362/project/controller.v
+Z25 F/home/hcd3707/EECS362/project/controller.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vdatapath
+Z26 IzeY6P`_`iQU>PF[Cgnd3d3
+Z27 V><^SJJMCdCPmldB61FXV<3
+R10
+Z28 w1582759603
+Z29 8/home/hcd3707/EECS362/project/datapath.v
+Z30 F/home/hcd3707/EECS362/project/datapath.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vdmem
+Z31 IO:Ga6HNQkgikIhCDb_JJh0
+Z32 VH=[=oZ`ioN5g=65fz2`Q70
+R10
+Z33 w1582757544
+Z34 8/home/hcd3707/EECS362/project/dmem.v
+Z35 F/home/hcd3707/EECS362/project/dmem.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vimem
+Z36 IPz8hZO=RFMRJFXb;0FU9V1
+Z37 VUo8LYnbcjVPDmjmeb>m6M2
+R10
+Z38 w1582757547
+Z39 8/home/hcd3707/EECS362/project/imem.v
+Z40 F/home/hcd3707/EECS362/project/imem.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vmaindec
+Z41 I8TMPT^nFLZ7e;K;B_k9HP0
+Z42 V6@1G[R2iMDhTfTG`B]5^:3
+R10
+Z43 w1460587225
+Z44 8/home/hcd3707/EECS362/project/maindec.v
+Z45 F/home/hcd3707/EECS362/project/maindec.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vmips
+Z46 I^Kh;Ol444??26MCE6j7`m3
+Z47 V?7>obYh?<;bQKAClSYQbD1
+R10
+R43
+Z48 8/home/hcd3707/EECS362/project/mips.v
+Z49 F/home/hcd3707/EECS362/project/mips.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vregfile
+Z50 I:THNjQ?lhU:a`k5T[XlSB2
+Z51 VJ^V<L=Den7g3?kOSGBoG01
+R10
+Z52 w1582757523
+Z53 8/home/hcd3707/EECS362/project/regfile.v
+Z54 F/home/hcd3707/EECS362/project/regfile.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vsign_extend
+Z55 IbHcYZhDmP]J;mR_9>ASlW0
+Z56 Ve4fQK9e=`=5kCPW8kP:dn0
+R10
+Z57 w1582757502
+Z58 8/home/hcd3707/EECS362/project/sign_extend.v
+Z59 F/home/hcd3707/EECS362/project/sign_extend.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0
+vtb
+Z60 IC2O8U9CL1;d7dikVDVa@@2
+Z61 VV@Xn<HnSRM[I5c1?BH]3a3
+R10
+Z62 w1582760051
+Z63 8/home/hcd3707/EECS362/project/tb.v
+Z64 F/home/hcd3707/EECS362/project/tb.v
+L0 7
+R14
+r1
+31
+R15
+!s85 0
+vtop
+Z65 IiO@]D>eiSETSUT9Fe_2D41
+Z66 VSb5]d0WJlTfC35eM;AE=b1
+R10
+R43
+Z67 8/home/hcd3707/EECS362/project/top.v
+Z68 F/home/hcd3707/EECS362/project/top.v
+L0 1
+R14
+r1
+31
+R15
+!s85 0

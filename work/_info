@@ -1,0 +1,350 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/hcd3707/EECS362
+T_opt
+V8=RoL2UNQaGNDXhN^]37k3
+04 2 4 work tb fast 0
+=1-b8ca3aac2b96-5e5700a3-9e388-427d
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OL;O;6.3c;37
+vadd32
+IV_ijU76[=aG@Z6[EhmIH?3
+VZGf@Cl[kHDhG0F9>M=iHV2
+Z1 d/home/hcd3707/EECS362/project
+Z2 w1582762491
+Z3 8/home/hcd3707/EECS362/project/bitops.v
+Z4 F/home/hcd3707/EECS362/project/bitops.v
+L0 2
+Z5 OL;L;6.3c;37
+r1
+!s85 0
+31
+Z6 o-work work -nocovercells -L mtiAvm
+valu
+ILBT_lS0JJHKEgHzJI0QCe3
+VF=[?RUdXFilJ]QYKhAgB^1
+R1
+w1582763590
+8/home/hcd3707/EECS362/project/alu.v
+F/home/hcd3707/EECS362/project/alu.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+valudec
+I3RZ]MlzW>mY`Zl9JX2:aU0
+V^h9;89^jAo@eSZR?O6L`O3
+R1
+w1582762132
+8/home/hcd3707/EECS362/project/aludec.v
+F/home/hcd3707/EECS362/project/aludec.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vand32
+IQZQ[9>^3aeb435UUifcnZ0
+VPlz_:[]4CaC4M@83_;<<L1
+R1
+R2
+R3
+R4
+L0 24
+R5
+r1
+!s85 0
+31
+R6
+vcontroller
+IVOOL=Z:e<KA[:E2CM;9k;0
+Vn?]K7RK4e2@KInmAOYA;<0
+R1
+w1582767311
+8/home/hcd3707/EECS362/project/controller.v
+F/home/hcd3707/EECS362/project/controller.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vdatapath
+I=FaB:OPhWlPZ96A]9FFPR3
+VcgHUf_d_IQI5[n3Y`FaSc2
+R1
+w1582767296
+8/home/hcd3707/EECS362/project/datapath.v
+F/home/hcd3707/EECS362/project/datapath.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vdmem
+IO:Ga6HNQkgikIhCDb_JJh0
+VH=[=oZ`ioN5g=65fz2`Q70
+R1
+w1582757544
+8/home/hcd3707/EECS362/project/dmem.v
+F/home/hcd3707/EECS362/project/dmem.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vimem
+IPz8hZO=RFMRJFXb;0FU9V1
+VUo8LYnbcjVPDmjmeb>m6M2
+R1
+w1582757547
+8/home/hcd3707/EECS362/project/imem.v
+F/home/hcd3707/EECS362/project/imem.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vmaindec
+ISbma9k[lh2g3lGMcD<HiY2
+V2X_AMcnS@i1S`aQ=AHUZD1
+R1
+w1582766989
+8/home/hcd3707/EECS362/project/maindec.v
+F/home/hcd3707/EECS362/project/maindec.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vmips
+IcWQSf>W1Yg?QQR?cV=Eec2
+V?7>obYh?<;bQKAClSYQbD1
+R1
+w1582767194
+8/home/hcd3707/EECS362/project/mips.v
+F/home/hcd3707/EECS362/project/mips.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vor32
+IF6Y0OzQh7E[^I0`7]ZV@C2
+Ven[5n9io2]5iQ21eND7Nm2
+R1
+R2
+R3
+R4
+L0 31
+R5
+r1
+!s85 0
+31
+R6
+vregfile
+I:THNjQ?lhU:a`k5T[XlSB2
+VJ^V<L=Den7g3?kOSGBoG01
+R1
+w1582757523
+8/home/hcd3707/EECS362/project/regfile.v
+F/home/hcd3707/EECS362/project/regfile.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vseq32
+IFbT[E>X5J=Z9]d5kE=QGZ1
+Vf1ac_UH];89iG[YN1LD[60
+R1
+R2
+R3
+R4
+L0 45
+R5
+r1
+!s85 0
+31
+R6
+vsge32
+IGHL;ZKj5Gg=5ZjED7I1jn0
+VP7TMcKM=NgPUSAGFGEnjb2
+R1
+R2
+R3
+R4
+L0 59
+R5
+r1
+!s85 0
+31
+R6
+vsgt32
+IQ4HDR@l^C`Cn]iKOa<3a@0
+VmE@HL1?C70PE2g9bX7Bee0
+R1
+R2
+R3
+R4
+L0 80
+R5
+r1
+!s85 0
+31
+R6
+vsign_extend
+IbHcYZhDmP]J;mR_9>ASlW0
+Ve4fQK9e=`=5kCPW8kP:dn0
+R1
+w1582757502
+8/home/hcd3707/EECS362/project/sign_extend.v
+F/home/hcd3707/EECS362/project/sign_extend.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vsle32
+IW6`2;?:JXmhMe[HjOf9`11
+VSW?QNc?hkNm_WY1RZ^BSa0
+R1
+R2
+R3
+R4
+L0 52
+R5
+r1
+!s85 0
+31
+R6
+vsll32
+IL=WT>>K<]Z4XhL_36lhXF0
+V7]434z>Y8OaToDE^[:F^f3
+R1
+R2
+R3
+R4
+L0 87
+R5
+r1
+!s85 0
+31
+R6
+vslt32
+IG=0W;<24:[5OAMZACeIaZ0
+VP5QlHOa8MT`V@e>mL0E?00
+R1
+R2
+R3
+R4
+L0 73
+R5
+r1
+!s85 0
+31
+R6
+vsne32
+I?zKzO8mE;md@glhBzEWoQ2
+VNE^mfh0cDRRho]EbYCCMC2
+R1
+R2
+R3
+R4
+L0 66
+R5
+r1
+!s85 0
+31
+R6
+vsra32
+INFM]6FU2jakCz1UBF^ZHB3
+V1eHah7edGa>7N0d2mfWS[3
+R1
+R2
+R3
+R4
+L0 101
+R5
+r1
+!s85 0
+31
+R6
+vsrl32
+IdbSWQmBF3?O@hA1VEeB1D0
+V1CA[BaMog`W_Waj:=2@M>1
+R1
+R2
+R3
+R4
+L0 94
+R5
+r1
+!s85 0
+31
+R6
+vsub32
+Im<jI0AVPAEBQl;G70h]HK3
+V<znf3W[c1_8gzU2HOj=5O1
+R1
+R2
+R3
+R4
+L0 13
+R5
+r1
+!s85 0
+31
+R6
+vtb
+IC2O8U9CL1;d7dikVDVa@@2
+VV@Xn<HnSRM[I5c1?BH]3a3
+R1
+w1582760051
+8/home/hcd3707/EECS362/project/tb.v
+F/home/hcd3707/EECS362/project/tb.v
+L0 7
+R5
+r1
+31
+R6
+!s85 0
+vtop
+IiO@]D>eiSETSUT9Fe_2D41
+VSb5]d0WJlTfC35eM;AE=b1
+R1
+w1460587225
+8/home/hcd3707/EECS362/project/top.v
+F/home/hcd3707/EECS362/project/top.v
+L0 1
+R5
+r1
+31
+R6
+!s85 0
+vxor32
+IBiKWFcOSLRYY;X>ikcSea2
+VFcUmT1zHY;DbAPk<4d5?J0
+R1
+R2
+R3
+R4
+L0 38
+R5
+r1
+!s85 0
+31
+R6
