@@ -11,7 +11,7 @@ module mips (
     output [31:0] dmem_wdata
 );
 
-    wire [2:0] alucontrol;
+    wire [5:0] alucontrol;
     wire       alu_src   ;
     wire       branch_ne,branch_eq;
     wire       jump      ;

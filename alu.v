@@ -82,56 +82,56 @@ module alu(
 		    6'b100100: begin
 		                s = s8;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
            //or case
 		    6'b100101: begin
 		                s = s9;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
            //xor case
 		    6'b100110: begin
 		                s = s10;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
             //set equal to case
 		    6'b101000: begin
 		                s = s11;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
             //set not equal to case
 		    6'b101001: begin
 		                s = s12;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
             //set less than case
 		    6'b101010: begin
 		                s = s13;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
             //set greater than case
 		    6'b101011: begin
 		                s = s14;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
             //set less than eqqual to case
 		    6'b101100: begin
 		                s = s15;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end
             //set greater than equal to case
 		    6'b101101: begin
 		                s = s16;
 		                cout = 1'b0;
-                      		ovf = 1'b0;
-                      		end
+		                ovf = 1'b0;
+		                end      
 		    endcase
 		end
 		
