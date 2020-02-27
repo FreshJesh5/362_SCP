@@ -5,6 +5,7 @@ module aludec (
    always @(*) begin
       case(instr[31:26])
          6'h00: alucontrol = instr[5:0];
+         6'h01: alucontrol = instr[5:0];
          6'h08: alucontrol = 6'h20;
          6'h09: alucontrol = 6'h21;
          6'h0a: alucontrol = 6'h22;
@@ -21,6 +22,8 @@ module aludec (
          6'h1b: alucontrol = 6'h2b;
          6'h1c: alucontrol = 6'h2c;
          6'h1d: alucontrol = 6'h2d;
+         6'h23: alucontrol = 6'h20;
+         6'h2b: alucontrol = 6'h20;
          default: alucontrol = 6'h00;
       endcase    
    end

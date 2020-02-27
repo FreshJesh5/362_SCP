@@ -19,7 +19,7 @@ module dlx (
     wire       mem_write ;
     wire       reg_dst   ;
     wire       reg_write ;
-
+    assign dmem_we = mem_write;
     controller controller_inst (
         .instr     (imem_data ),
         .alucontrol(alucontrol),

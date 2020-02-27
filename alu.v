@@ -131,7 +131,12 @@ module alu(
 		                s = s16;
 		                cout = 1'b0;
 		                ovf = 1'b0;
-		                end      
+		                end
+		    6'b001110: begin
+		                s = d1*d2;
+		                cout = 1'b0;
+		                ovf = 1'b0;
+		               end
 		    endcase
 		end
 		
