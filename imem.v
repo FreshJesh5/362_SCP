@@ -13,7 +13,7 @@ module imem (
 			03 : data = 32'hAC030001;
 			04 : data = 32'h28210001;
 			05 : data = 32'h00012029;
-			06 : data = 32'h1480fff6;
+			06 : data = 32'h1480fffB;
 			07 : data = 32'h8C030001;
 			08 : data = 32'h00000000;
 			09 : data = 32'h00000000;

@@ -15,7 +15,7 @@ module top (
 		.data(imem_data     )
 	);
 
-	mips mips_inst (
+	dlx dlx_inst (
 		.clk       (clk       ),
 		.rst       (reset     ),
 		.imem_data (imem_data ),
