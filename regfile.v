@@ -1,11 +1,9 @@
 module regfile (
 	input         clk  ,
-	//
 	input  [ 4:0] addr1,
 	input  [ 4:0] addr2,
 	output reg [31:0] data1,
 	output reg [31:0] data2,
-	//
 	input         rw   ,
 	input  [ 4:0] addr3,
 	input  [31:0] wdata

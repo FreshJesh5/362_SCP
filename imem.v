@@ -2,12 +2,8 @@ module imem (
 	input  [ 5:0] addr,
 	output reg [31:0] data
 );
-
-	// echo -e {00..63}": data = 32'h00000000;\n"
-	// xx : data = {6'dx,5'dx,5'dx,5'dx,5'dx,6'dx};
-	always @(addr) begin
-		case(addr)
-			00 : data = 32'h00001820;
+/*
+00 : data = 32'h00001820;
 			01 : data = 32'h2001000A;
 			02 : data = 32'h00231820;
 			03 : data = 32'hAC030001;
@@ -15,9 +11,22 @@ module imem (
 			05 : data = 32'h00012029;
 			06 : data = 32'h1480fffB;
 			07 : data = 32'h8C030001;
-			08 : data = 32'h00000000;
-			09 : data = 32'h00000000;
-			10 : data = 32'h00000000;
+			*/
+	// echo -e {00..63}": data = 32'h00000000;\n"
+	// xx : data = {6'dx,5'dx,5'dx,5'dx,5'dx,6'dx};
+	always @(addr) begin
+		case(addr)
+			00 : data = 32'h20010001;
+			01 : data = 32'h30220003;
+			02 : data = 32'h34230000;
+			03 : data = 32'h38640005;
+			04 : data = 32'h60850004;
+			05 : data = 32'h64860004;
+			06 : data = 32'h70c70000;
+			07 : data = 32'h74880003;
+			08 : data = 32'h50290002;
+			09 : data = 32'h592a0001;
+			10 : data = 32'h0489580e;
 			11 : data = 32'h00000000;
 			12 : data = 32'h00000000;
 			13 : data = 32'h00000000;
